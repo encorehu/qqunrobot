@@ -91,7 +91,7 @@ class MsgHandler(threading.Thread):
         content =''
         for piece in msg['value']['content']:
             if type(piece) in [list,tuple,set,dict]:
-                continue
+                continue # 这个里面一般是图片, 以后再处理
             else:
                 content +=piece
         print content
