@@ -1,0 +1,20 @@
+*.log
+*.pot
+*.pyc
+*.pyo
+local_settings.py
+
+*.db
+*.mo
+*.psd
+*.prj
+*.pui
+*.cmd
+*.bat
+*.zip
+*.rar
+
+# folders and files
+fileobject.py
+.idea/
+data
