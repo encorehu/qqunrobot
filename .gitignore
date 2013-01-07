@@ -16,5 +16,7 @@ local_settings.py
 
 # folders and files
 fileobject.py
+config.json
+flag.txt
 .idea/
 data
