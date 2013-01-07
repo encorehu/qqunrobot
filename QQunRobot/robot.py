@@ -71,7 +71,7 @@ HIDEME  = 2
 
 
 def InitQQThread():
-    webqq= WebQQClient('1851038450','u7654321')
+    webqq= WebQQClient('12345678','u7654321')
     print dir(webqq)
 
     if webqq.login():
